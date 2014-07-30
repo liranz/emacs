@@ -100,3 +100,6 @@
 [submodule "modes/rainbow-mode"]
 	path = modes/rainbow-mode
 	url = https://github.com/emacsmirror/rainbow-mode.git
+[submodule "modes/d-mode"]
+	path = modes/d-mode
+	url = https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode.git
