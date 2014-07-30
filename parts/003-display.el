@@ -47,3 +47,12 @@
 
 (require 'popwin)
 (popwin-mode 1)
+
+(defun dell-framesize ()
+  "Change the framesize to fit our full Dell U2713HM screen"
+  (interactive)
+  (progn
+    (ns-toggle-toolbar)
+    (ns-toggle-toolbar)
+    (set-frame-size (selected-frame) 317 84) ) )
+
