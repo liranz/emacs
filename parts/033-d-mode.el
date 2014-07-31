@@ -16,10 +16,15 @@
 
 (define-key d-mode-map (kbd "C-c ?") 'ac-dcd-show-ddoc-with-buffer)
 (define-key d-mode-map (kbd "C-c .") 'ac-dcd-goto-definition)
-(define-key d-mode-map (kbd "C-c ,") 'ac-dcd-goto-def-pop-marker)
+(define-key d-mode-map (kbd "C-c /") 'ac-dcd-goto-def-pop-marker)
 
 (when (featurep 'popwin)
   (add-to-list 'popwin:special-display-config
 			   `(,ac-dcd-error-buffer-name :noselect t))
   (add-to-list 'popwin:special-display-config
 				 `(,ac-dcd-document-buffer-name :position right :width 80)))
+
+(setq ac-dcd-executable "/Users/liranz/git/DCD/dcd-client")
+(setq ac-dcd-flags (quote ("\"-I/Users/liranz/git/wekapp\"")))
+(setq ac-dcd-server-executable "/Users/liranz/git/DCD/dcd-server")
+ 
