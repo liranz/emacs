@@ -38,7 +38,7 @@
 
 (add-to-list 'custom-theme-load-path (in-emacs-d "themes"))
 
-(setq-default cursor-type 'bar)
+(setq-default cursor-type 'box)
 
 (require 'sublimity-scroll)
 (sublimity-mode 1)
