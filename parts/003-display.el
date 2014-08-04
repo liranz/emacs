@@ -2,6 +2,7 @@
 (setq inhibit-splash-screen t)
 (setq frame-title-format '(buffer-file-name "%f" ("%b")))
 (display-time) ; useful for full-screen terminals
+(set-face-attribute 'default nil :height 140)
 
 ; Try to display battery info (only if applicable)
 (condition-case ex
@@ -34,7 +35,7 @@
 (defun presentation-mode ()
   (interactive)
   (load-theme 'whiteboard t)
-  (set-face-attribute 'default nil :height 120))
+  (set-face-attribute 'default nil :height 140))
 
 (add-to-list 'custom-theme-load-path (in-emacs-d "themes"))
 
