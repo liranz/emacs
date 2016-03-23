@@ -8,7 +8,7 @@
 (setq custom-dir (in-emacs-d "custom/"))
 (defun in-custom-d (path)
   (concat custom-dir path))
-(add-to-list 'load-path emacs-dir)
+;(add-to-list 'load-path emacs-dir)
 (add-to-list 'load-path mode-dir)
 (add-to-list 'load-path custom-dir)
 

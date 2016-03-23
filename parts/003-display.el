@@ -2,7 +2,11 @@
 (setq inhibit-splash-screen t)
 (setq frame-title-format '(buffer-file-name "%f" ("%b")))
 (display-time) ; useful for full-screen terminals
-(set-face-attribute 'default nil :height 140)
+
+(set-face-attribute 'default nil :height 160)
+
+; Good for the Dell at home:
+;(set-face-attribute 'default nil :height 130)
 
 ; Try to display battery info (only if applicable)
 (condition-case ex
@@ -57,3 +61,29 @@
     (ns-toggle-toolbar)
     (set-frame-size (selected-frame) 317 84) ) )
 
+(defun mbp-display ()
+  " Change the font size to fit the Dell screen at home"
+  (interactive)
+  (set-face-attribute 'default nil :height 100) )
+
+
+
+(defun home-dell ()
+  " Change the font size to fit the Dell screen at home"
+  (interactive)
+  (set-face-attribute 'default nil :height 130) )
+
+(defun office-dell ()
+  " Change the font size to fit the Dell screen at home"
+  (interactive)
+  (set-face-attribute 'default nil :height 160) )
+
+(defun office-projector ()
+  " Change the font size to fit the Dell screen at home"
+  (interactive)
+  (set-face-attribute 'default nil :height 180) )
+
+(defun office-projector-direct ()
+  " Change the font size to fit the Dell screen at home"
+  (interactive)
+  (set-face-attribute 'default nil :height 180) )

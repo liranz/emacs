@@ -4,10 +4,13 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
+ '(c-basic-offset 4)
  '(cua-rectangle-mark-key (kbd "C-x <C-return>"))
- ;'(flycheck-d-dmd-executable "/Users/liranz/dmd-flycheck")
+ '(flycheck-dmd-include-path (quote ("/Users/liranz/git/wekapp")))
  '(helm-ff-transformer-show-only-basename nil)
  '(iflipb-ignore-buffers nil)
+ '(indent-tabs-mode t)
+ '(ispell-program-name "/usr/local/bin/ispell")
  '(minimap-window-location (quote right))
  '(ns-pop-up-frames nil)
  '(projectile-ack-function (quote ag))
@@ -15,7 +18,8 @@
  '(projectile-globally-ignored-directories
    (quote
     (".idea" ".eunit" ".git" ".hg" ".fslckout" ".bzr" "_darcs" "venv" "build" ".env")))
- '(set-mark-command-repeat-pop t))
+ '(set-mark-command-repeat-pop t)
+ '(tab-width 4))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,7 +32,7 @@
  '(helm-selection ((t (:background "dark red" :underline t))))
  '(highlight ((t (:background "Yellow" :foreground "black"))))
  '(hl-line ((t (:background "#333"))) t)
- '(linum ((t (:inherit (shadow default) :background "#000" :foreground "#444"))) t)
+ '(linum ((t (:inherit (shadow default) :background "#000" :foreground "#444"))))
  '(magit-diff-add ((t (:inherit diff-added :foreground "chartreuse"))))
  '(magit-diff-del ((t (:inherit diff-removed :foreground "orange red"))))
  '(magit-item-highlight ((t (:background "RoyalBlue4"))))
