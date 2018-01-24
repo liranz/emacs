@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Nov 26 15:10:13 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22103 1205 634081 0) (desktop . "206") "liranz@engine.lan" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (line-spacing) (left-fringe . 10) (right-fringe . 10) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "1CAE-91CA-6368-5D9D") (frameset--mini t . t) (height . 113) (width . 381) (modeline . t) (minibuffer . t) (unsplittable) (left . 1280) (top + -412) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "engine.lan") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 30) (min-height-ignore . 2) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 6) (min-pixel-height . 76) (min-pixel-width . 300) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 120) (min-pixel-height-safe . 19) (min-pixel-width-safe . 60)) hc (pixel-width . 3836) (pixel-height . 2137) (total-width . 384) (total-height . 112) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1276) (pixel-height . 2137) (total-width . 128) (total-height . 112) (normal-height . 1.0) (normal-width . 0.3291221196124973) (buffer "manhole.d" (selected) (hscroll . 0) (fringes 10 10 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 5622) (start . 3503))) (leaf (pixel-width . 1280) (pixel-height . 2137) (total-width . 128) (total-height . 112) (normal-height . 1.0) (normal-width . 0.3363248223634567) (buffer "init_file.py" (selected . t) (hscroll . 0) (fringes 10 10 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 897) (start . 1))) (leaf (last . t) (pixel-width . 1280) (pixel-height . 2137) (total-width . 128) (total-height . 112) (normal-height . 1.0) (normal-width . 0.334553058024046) (buffer "manhole.d" (selected) (hscroll . 0) (fringes 10 10 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 5624) (start . 1579)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/liranz/git/wekapp/init_file.py" "/Users/liranz/git/wekapp/weka/frontend/manhole.d" "~/.recentf" "~/git/wekapp/weka/raid/commit.d" "~/git/wekapp/weka/raid/scrubber.d" "~/git/wekapp/weka/raid/raid.d" "~/git/wekapp/weka/reactor/reactor.d" "~/git/wekapp/weka/bucket/fill_registry.d" "~/git/wekapp/weka/frontend/manhole.d" "~/git/wekapp3/weka/raid/scrubber.d" "~/git/wekapp/weka/config/leadership.d" "~/Dell_meeting_Nov_23.txt" "~/git/wekapp/weka/reactor/sync/fiber_queue.d" "~/git/wekapp/weka/config/connectivity_map.d" "~/git/wekapp/weka/lib/subtyping.d" "~/git/wekapp/weka/raid/distribution_cache.d" "/Library/D/dmd/src/phobos/std/range/package.d" "~/git/wekapp/weka/network/containers/scatter_gather.d" "~/git/wekapp/weka/cluster/node.d" "~/git/wekapp/weka/ssd/aio.d" "~/git/wekapp/weka/ssd/aiofile.d" "~/git/wekapp/weka/lib/algorithm.d" "~/git/wekapp/weka/ssd/ssd.d" "~/git/wekapp/weka/lib/bitmanip_ext.d" "~/git/wekapp/weka/common/consts.d" "~/git/wekapp/weka/lib/collections/fixed_array.d" "~/git/wekapp/weka/common/typed_identifier.d" "~/git/wekapp/weka/raid/defines.d" "~/board_minutes_2015_11_19.txt" "~/git/wekapp/init_file.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/liranz/git/wekapp/init_file.py"
+  "init_file.py"
+  'python-mode
+  '(projectile-mode global-auto-revert-mode guide-key-mode yas-minor-mode helm-mode magit-auto-revert-mode undo-tree-mode auto-complete-mode wrap-region-mode drag-stuff-mode flycheck-mode diff-hl-mode subword-mode sphinx-doc-mode)
+  897
+  '(1 t)
+  nil
+  nil
+  '((show-trailing-whitespace . t) (tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/liranz/git/wekapp/weka/frontend/manhole.d"
+  "manhole.d"
+  'd-mode
+  '(abbrev-mode projectile-mode global-auto-revert-mode guide-key-mode yas-minor-mode helm-mode magit-auto-revert-mode undo-tree-mode auto-complete-mode wrap-region-mode drag-stuff-mode diff-hl-mode subword-mode)
+  5622
+  '(4991 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . t) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+

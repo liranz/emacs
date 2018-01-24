@@ -54,6 +54,9 @@
 (global-set-key (kbd "C-x <C-down>") 'next-error)
 (global-set-key (kbd "C-x <C-up>") 'previous-error)
 
+(global-set-key (kbd "<prior>") 'scroll-down)
+(global-set-key (kbd "<next>") 'scroll-up)
+
 ;; Line joining
 (add-hook 'prog-mode-hook '(lambda () (global-set-key (kbd "M-j")
                                            (lambda ()

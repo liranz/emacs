@@ -83,6 +83,12 @@
   (interactive)
   (set-face-attribute 'default nil :height 180) )
 
+
+(defun office-projector-bigger ()
+  " Change the font size to fit the Dell screen at home"
+  (interactive)
+  (set-face-attribute 'default nil :height 220) )
+
 (defun office-projector-direct ()
   " Change the font size to fit the Dell screen at home"
   (interactive)

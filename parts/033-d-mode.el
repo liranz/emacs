@@ -25,7 +25,7 @@
                    c-basic-offset 4)
              (setq-default c-basic-offset 4
                            tab-width 4
-                           indent-tabs-mode nil)))
+                           indent-tabs-mode nil)  ))
 
 ;; (define-key d-mode-map (kbd "C-c ?") 'ac-dcd-show-ddoc-with-buffer)
 ;; (define-key d-mode-map (kbd "C-c .") 'ac-dcd-goto-definition)
@@ -37,6 +37,19 @@
 ;;   (add-to-list 'popwin:special-display-config
 ;;                `(,ac-dcd-document-buffer-name :position right :width 80)))
 
+
+(define-key d-mode-map (kbd "C-c ?") 'ac-dcd-show-ddoc-with-buffer)
+(define-key d-mode-map (kbd "C-c .") 'ac-dcd-goto-definition)
+(define-key d-mode-map (kbd "C-c /") 'ac-dcd-goto-def-pop-marker)
+(define-key d-mode-map (kbd "C-c s") 'ac-dcd-search-symbol)
+
+(when (featurep 'popwin)
+  (add-to-list 'popwin:special-display-config
+               `(,ac-dcd-error-buffer-name :noselect t))
+  (add-to-list 'popwin:special-display-config
+               `(,ac-dcd-document-buffer-name :position right :width 80))
+  (add-to-list 'popwin:special-display-config
+               `(,ac-dcd-search-symbol-buffer-name :position bottom :width 5))) 
 
 
 (add-hook 'd-mode-hook
@@ -97,6 +110,6 @@
 
 (setq ac-dcd-executable "/Users/liranz/git/DCD/bin/dcd-client")
 (setq ac-dcd-flags '("-I/Users/liranz/git/wekapp" "-I/usr/share/dmd/src/phobos"))
-(setq ac-dcd-server-executable "/Users/liranz/git/DCD/bin/dcd-server")
+;(setq ac-dcd-server-executable "/Users/liranz/git/DCD/bin/dcd-server")
 ;(setq flycheck-dmd-include-path (list "/Users/liranz/git/wekapp"))
 (setq flycheck-d-dmd-executable "/Users/liranz/dmd-flycheck")
